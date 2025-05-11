@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // Função genérica simples
-func identidade[T any](valor T) T {
+func identidade[T any /*pode ser comparable*/](valor T) T {
 	return valor
 }
 
